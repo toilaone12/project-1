@@ -1,0 +1,181 @@
+.header{
+    background-color: var(--text-color);
+    height: var(--header-height);
+    font-size: 1.4rem;
+    color: var(--text-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    color: var(--white-color);
+}
+.logo--red{
+    margin-right: 16px;
+    color: var(--orange-color);
+}
+.list{
+    display: flex;
+    align-items: center;
+}
+.list:hover .list--hover{
+    display: block;
+
+}
+.list::after{
+    content: " ";
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 248px;
+    height: 30px;
+}
+.list__icon{
+    position: relative;
+    font-size: 3rem;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.list__items{
+    position: absolute;
+    top: var(--header-height);
+    right: 2px;
+    display: inline-block;
+    border-radius: 2px;
+    padding-left: 0;
+    list-style: none;
+    margin: 0; 
+    z-index: 1;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.list--hover{
+    display: none;
+}
+.list__name{
+    background-color: var(--white-color);
+}
+.list__name a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    padding: 12px 24px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.list__name a:hover{
+    background-color: #1877f2;
+    color: var(--white-color); 
+}
+/* Content */
+.content{
+    background-color: #f5f5f5;
+}
+.heading__content{
+    background-color: rgb(223, 219, 219);
+    margin-top: var(--header-height);
+    height: 51px;
+    width: 100%;
+}
+.heading__content-list{
+    display: flex;
+    height: 51px;
+    align-items: center;
+    padding-left: 0;
+    font-size: 1.6rem;
+}
+.heading__content-home a{
+    position: relative;
+    top: -2px;
+    text-decoration: none;
+    color:#98a5b9;  
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.heading__content-home a:hover{
+    color: var(--text-color);
+}
+.heading__content-home::after{
+    position: absolute;
+    content: "";
+    top: 87.5px;
+    height: 20px;
+    transform: rotate(20deg);
+    width: 1px;
+    z-index: 2;
+    left: 348px;
+    border-right: 1px solid #98a5b9;
+}
+.heading__content-dots{
+    padding: 0 1rem;
+    color: #98a5b9;
+    cursor: pointer;
+}
+.heading__content-dots:hover{
+    color: var(--text-color);
+}
+.heading__content-dots::after{
+    position: absolute;
+    content: "";
+    top: 87.5px;
+    height: 20px;
+    transform: rotate(20deg);
+    width: 1px;
+    z-index: 2;
+    left: 378px;
+    border-right: 1px solid #98a5b9;
+    cursor: default;
+}
+.heading__content-system{
+    padding: 0 1rem;
+    color: #98a5b9;
+    cursor: pointer;
+}
+.heading__content-system:hover{
+    color: var(--text-color);
+}
+.heading__content-product{
+    padding: 0 1rem;
+    color: #98a5b9;
+    cursor: pointer;
+}
+.heading__content-product:hover{
+    color: var(--text-color);
+}
+.heading__content-introduce{
+    padding: 0 1rem;
+    color: var(--text-color);
+}
+.body__content{
+    margin-top: 1.6rem;
+}
+.body__content-picture{
+    background-image: url(https://www.w3schools.com/w3images/cinqueterre.jpg);
+    padding-top: 50%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 1rem;
+}
+.body__content-sub-photo{
+    display: flex;
+    justify-content: center;
+}
+.body__content-sub-photo-1,
+.body__content-sub-photo-2,
+.body__content-sub-photo-3{
+    width: 100px;
+    height: 100px;
+    pad
+}
