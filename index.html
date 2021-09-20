@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <div class="navbar">
+                    <div class="logo">
+                        <i class="logo--red fas fa-user-astronaut"></i>
+                        <p class="logo__title">Astronaut Tour</p>
+                    </div>
+                    <div class="list">
+                        <i class="list__icon fas fa-bars js-menu">            
+                        </i>
+                        <ul class="list__items list--hover js-list">
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="">
+                                Home Page
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#travel">
+                                Travel
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#offers">
+                                Offers
+                                </a>
+                            </li>
+                            <li class="list__name" style="border-bottom: 1px solid #f5f5f5;">
+                                <a href="#company">
+                                About Company
+                                </a>
+                            </li>
+                            <li class="list__name">
+                                <a href="">
+                                Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="slide">
+            <img src="./img/space.jpg" alt="Space" class="slide__img">
+            <img src="./img/astrounat2.jpg" alt="Astronaut" class="slide__img-astrounat">        
+        </div>
+        <div class="content">
+            <div class="selection-content" id="travel">
+
+                <span class="content__title ">Travel</span>
+                <span class="content__subtitle">Experience places you've never been before</span>
+                <div class="grid__content">
+                    <div class="grid__row">
+                        <div class="short-bar">
+                            <div class="short-bar__items">
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-plane"></i>
+                                    Flight
+                                </button>
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-hotel"></i>
+                                    Hotel
+                                </button>
+                                <button class="short-bar__title">
+                                    <i class="short-bar--right fas fa-car"></i>
+                                    Rental
+                                </button>
+                            </div>
+                            <div class="short-bar__table">
+                                <span class="short-bar__name">Travel the world with us</span>
+                                <div class="short-bar__place">
+                                    <span class="short-bar__from">From</span>
+                                    <span class="short-bar__to">To</span>
+                                </div>
+                                <div class="short-bar__travel">
+                                    <input type="text" placeholder="Departing from" name="" id="" class="short-bar__departing">
+                                    <input type="text" placeholder="Arriving at" name="" id="" class="short-bar__arriving">
+                                </div>
+                                <div class="short-bar__people">
+                                    <span class="short-bar__adult">Adults</span>
+                                    <span class="short-bar__kid">Kids</span>
+                                </div>
+                                <div class="short-bar__travel">
+                                    <input type="number" value="0" min="0" name="" id="" class="short-bar__departing">
+                                    <input type="number" value="0" min="0" name="" id="" class="short-bar__arriving">
+                                </div>
+                                <input type="submit" value="Search and find dates" class="short-bar__search">
+                            </div>
+                        </div>
+                        <div class="home__product">
+                            <div class="grid__row-flex">
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-1"></div>
+                                            <span class="table__name">Cinque Terre</span>
+                                            <p class="table__price">From $1000</p>
+                                            <p class="table__place">Place: Italia</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <a href="index1.html" style="text-decoration: none;"><button class="table__btn">Choose Place</button></a>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-2"></div>
+                                            <span class="table__name table--name-line">Liberty Enlightening</span>
+                                            <p class="table__price">From $5000</p>
+                                            <p class="table__place">Place: New York</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-3"></div>
+                                            <span class="table__name">Piza Tower</span>
+                                            <p class="table__price">From $3600</p>
+                                            <p class="table__place">Place: Italia</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-4"></div>
+                                            <span class="table__name">Eiffel Tower</span>
+                                            <p class="table__price">From $1200</p>
+                                            <p class="table__place">Place: Paris</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-5"></div>
+                                            <span class="table__name">Louvre Museum</span>
+                                            <p class="table__price">From $3000</p>
+                                            <p class="table__place">Place: Paris</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-6"></div>
+                                            <span class="table__name">Hoi An</span>
+                                            <p class="table__price">From $300</p>
+                                            <p class="table__place">Place: VietNam</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-7"></div>
+                                            <span class="table__name">Taj Mahal Tomb</span>
+                                            <p class="table__price">From $1500</p>
+                                            <p class="table__place">Place: India</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-3">
+                                    <div class="table">
+                                        <div class="table__list">
+                                            <div class="table__img table--img-8"></div>
+                                            <span class="table__name">Great Sphinx of Giza</span>
+                                            <p class="table__price">From $8000</p>
+                                            <p class="table__place">Place: Egypt</p>
+                                            <div class="table__icon">
+                                                <i class="fas fa-hotel"></i>
+                                                <i class="fas fa-mountain"></i>
+                                                <i class="fas fa-tram"></i>
+                                                <i class="fas fa-wifi"></i>
+                                                <i class="fas fa-barcode"></i>
+                                            </div>
+                                            <button class="table__btn">Choose Place</button>
+                                        </div>
+                                        <div class="table__favorite">Like
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <div class="table__discount"><span style="text-align: center;">10%</span>Discount</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+            <div class="selection-content" id="offers">
+                <span class="content__title">Best Offers</span>
+                <span class="content__subtitle">Best Offers For You</span>
+                <div class="grid__content">
+                    <div class="grid__row-flex">
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                                <div class="offers-subtitle">
+                                    <h3 class="offers-subtitle__name">A Great Choice For You</h3>
+                                    <p class="offers-subtitle__suggest">Lorem Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Ducimus, Tenetur.</p>
+                                    <button class="offers-subtitle__btn">See More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid__column-4">
+                            <div action="index1.html" class="offers">
+                                <img src="./img/pisa.jpg" class="offers__img"></img>
+                                <div class="offers-list">
+                                    <div class="offers-list__title">
+                                        <span class="offers-list__name">Italia</span>
+                                        <span class="offers-list__day">5 Days</span>
+                                    </div>
+                                    <div class="offers-list__travel">
+                                        <span class="offers-list__place">Pisa Tower</span>
+                                        <span class="offers-list__price">$5000</span>
+                                    </div>
+                                </div>
+                            
+                                <span class="offers__good-deal">
+                                    Best Deal
+                                    <span>25%</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class="selection-content" id="company">
+                <div class="grid__content">
+                    <span class="content__title">About Company</span>
+                    <span class="content__subtitle">All Information About The Company</span>
+ 
+                        <div class="about">
+                            <div class="grid__row-flex">
+                                <div class="grid__column-6">
+                                    <span class="about__info">Our hotel is one of a kind. It is truely amazing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                                    <span class="about__pay">
+                                        We accept:
+                                        <i class="fas fa-credit-card about__cart"></i>
+                                        <i class="fab fa-cc-visa about__cart"></i>
+                                        <i class="fab fa-cc-paypal about__cart"></i>
+                                        <i class="fab fa-cc-mastercard about__cart"></i>
+                                        <i class="fab fa-cc-amazon-pay about__cart"></i>
+                                    </span>
+                                </div>
+                                <div class="grid__column-6">
+                                    <div class="about__img"></div>
+                                </div>
+                                <div class="grid__column-6">
+                                    <div class="about__img-1"></div>
+                                </div>
+                                <div class="grid__column-6">
+                                    <span class="about__info">Our apartment is really clean and we like to keep it that way. Enjoy the lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                        <br>Subscribe to receive updates on available dates and special offers.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                
+            </div>
+            <div class="selection-content" id="review">
+                <div class="grid__content">
+                    <span class="content__title">Review</span>
+                    <div class="review">
+                        <div class="grid__row-flex">
+                            
+                            <div class="grid__column-3">
+                                    <div class="review__list">
+                                        <img src="./img/pic3.png" alt="" class="review__img">
+                                        <h3 class="review__name">Steve Rock</h3>
+                                        <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                        <div class="review__evaluate">
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="fas fa-star review--yellow"></i>
+                                            <i class="far fa-star review--yellow"></i>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__column-3">
+                                
+                                <div class="review__list">
+                                    <img src="./img/pic3.png" alt="" class="review__img">
+                                    <h3 class="review__name">Steve Rock</h3>
+                                    <p class="review__title">Subscribe to receive updates on available dates and special offers.</p>
+                                    <div class="review__evaluate">
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="fas fa-star review--yellow"></i>
+                                        <i class="far fa-star review--yellow"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="selection-content" id="contact">
+                <div class="grid__content">
+                    <span class="content__title">Contact</span>
+                    <div class="grid__row-contact">
+                        <div class="grid__column-6">
+                            <img src="./img/contact-img.svg" alt="">
+                        </div>
+                        <div class="grid__column-6">
+                            <div class="contact__form">
+                                <span class="contact__title">Thông tin liên hệ</span>
+                                <div class="contact__info">
+                                    <input type="text" name="" placeholder="Name" id="" class="contact__name">
+                                    <input type="email" name="" placeholder="Email" id="" class="contact__email">
+                                </div>
+                                <div class="contact__number">
+                                    <input type="tel" placeholder="Phone number" class="contact__phone" name="" id="">
+                                    <input type="number" min="1" maxlength="5" placeholder="People Number" name="" id="" class="contact__people">
+                                </div>
+                                <textarea name="" placeholder="Note" class="contact__note" id="" cols="30" rows="10"></textarea>
+                                <button class="contact__btn">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="grid__content">
+                <div class="footer__about">
+                    <div class="footer__brands">
+                        <h3>Local Brand</h3>
+                        <a href="#" class="footer__place">VietNam</a>
+                        <a href="#" class="footer__place">USA</a>
+                        <a href="#" class="footer__place">UK</a>
+                        <a href="#" class="footer__place">Japan</a>
+                        <a href="#" class="footer__place">Korea</a>
+                        <a href="#" class="footer__place">Germany</a>
+                        <a href="#" class="footer__place">France</a>
+                        <a href="#" class="footer__place">Sweden</a>
+                        <a href="#" class="footer__place">Switzerland</a>
+                        <a href="#" class="footer__place">China</a>
+                    </div>
+                    <div class="footer__socials">
+                        <h3>Social Network</h3>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-facebook"></i> Facebook</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-twitch"></i> Twitch</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-snapchat"></i> Snapchat</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-linkedin-in"></i> Linkedin</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-youtube"></i> Youtube</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-telegram"></i> Telegram</a>
+                        <a href="" class="footer__network"> 
+                            <i class="fab fa-google-plus-g"></i> Google+</a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-whatsapp"></i> Whatsapp
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-tiktok"></i> TikTok
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-facebook-messenger"></i> Messenger
+                        </a>
+                        <a href="" class="footer__network">
+                            <i class="fab fa-reddit"></i>   Reddit
+                        </a>    
+                    </div>
+                    <div class="footer__links">
+                        <h3>Travel links</h3>
+                        <a href="https://www.traveloka.com/vi-vn/" class="footer__place">Traveloka</a>
+                        <a href="https://www.booking.com/index.vi.html?label=gen173nr-1BCAEoggI46AdIM1gEaPQBiAEBmAEquAEXyAEM2AEB6AEBiAIBqAIDuAK33MeJBsACAdICJDgyMjE4ZTFlLWY0MDMtNGE3Ny05OWQ3LWY2OTllMjkzNzIwY9gCBeACAQ;sid=48ec6368baa9b9a1893bcf3de45f6105;keep_landing=1&sb_price_type=total&" class="footer__place">Booking.com</a>
+                        <a href="https://www.airbnb.com.vn/" class="footer__place">Airbnb</a>
+                        <a href="https://www.google.com/maps/@9.779349,105.6189045,11z?hl=vi-VN" class="footer__place">Google Map</a>
+                        <a href="https://www.mtrip.com/" class="footer__place">mTrip</a>
+                        <a href="https://www.tripcase.com/web2/trips" class="footer__place">Tripcase</a>
+                        <a href="https://www.couchsurfing.com/" class="footer__place">Couchsurfing</a>
+                        <a href="https://www.agoda.com/?cid=1844104" class="footer__place">Agoda</a>
+                        <a href="https://www.skyscanner.com.vn/" class="footer__place">Skycanner</a>
+                        <a href="https://www.klook.com/vi/" class="footer__place">Klook</a>
+                    </div>
+                    <div class="footer__pay">
+                        <h3>Payment by</h3>
+                        <ul class="footer__card">
+                            <li class="footer__wallet footer--visa"></li>
+                            <li class="footer__wallet footer--master-card"></li>
+                            <li class="footer__wallet footer--jcb"></li>
+                            <li class="footer__wallet footer--ccc"></li>
+                            <li class="footer__wallet footer--cod"></li>
+                        </ul>
+                        <p>Download</p>
+                        <div class="footer__apps">
+                            <img src="./img/qrcode.png" alt="" class="footer__qr-code">
+                            <div class="footer__application">
+                                <img src="./img/gg.png" alt="" class="footer__apple">
+                                <img src="./img/gg1.png" alt="" class="footer__apple">
+                                <img src="./img/appgallery.png" alt="" class="footer__apple">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__introduce">
+                    <p>Created by</p>
+                    <span>Me</span>
+                    <p>| All Right Reserved!</p>
+                </div>
+            </div>
+        </div>     
+    </div>
+    <!-- <div class="modal open">
+        <div class="modal__body">
+            <div class="modal__user">
+                <div class="modal__container">
+                    <div class="modal__header">
+                        <div class="span">Login</div>
+                    </div>
+                    <div class="modal__input">
+                        <input type="text" placeholder="Enter your Email or Number" name="" id="" class="modal__text">
+                        <input type="password" placeholder="Enter your Password" name="" id="" class="modal__text">
+                    </div>
+                    <button class="modal__btn">Login</button>
+                    <div class="modal__remember">
+                        <input type="checkbox" name="" id="">Remember Me.
+                    </div>
+                    <div class="modal__check">
+                        <p class="modal__password">Forgot Password?</p> Click Here
+                        <p class="modal__account">Don't Have Any Account?</p> Register Now
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <script src="./main.js"></script>
+</body>
+</html>
